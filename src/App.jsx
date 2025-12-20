@@ -81,6 +81,14 @@ function App() {
                     Learn More
                   </Button>
                 </div>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mt-4">
+                  <Button size="lg" className="w-full sm:w-auto bg-[#f27e05] hover:bg-[#f27e05]/90 text-xl py-6" onClick={() => window.location.href = 'https://download.dropapp.space/user'}>
+                    Download User App
+                  </Button>
+                  <Button size="lg" variant="outline" className="w-full sm:w-auto text-xl py-6" onClick={() => window.location.href = 'https://download.dropapp.space/dropdriver'}>
+                    Download Driver App
+                  </Button>
+                </div>
               </Bounce>
             </FadeIn>
           </div>

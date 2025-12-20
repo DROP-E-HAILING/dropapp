@@ -5,7 +5,7 @@ const apps = {
   user: {
     android: {
       label: 'Android',
-      url: 'http://148.113.201.195:8000/user',
+      url: 'https://download.dropapp.space/user',
     },
     ios: {
       label: 'iOS',
@@ -15,7 +15,7 @@ const apps = {
   driver: {
     android: {
       label: 'Android',
-      url: 'http://148.113.201.195:8000/dropdriver',
+      url: 'https://download.dropapp.space/dropdriver',
     },
     ios: {
       label: 'iOS',
